@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+.semestre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ramo {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  cursor: pointer;
+}
+.ramo.aprobado {
+  text-decoration: line-through;
+  background-color: #d4f4dd;
+}
